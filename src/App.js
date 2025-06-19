@@ -9,6 +9,7 @@ function App() {
         <p>
           Edit <code>src/App.js</code> and save to reload.
         </p>
+        <p>API Key: {window.env.API_KEY}</p>
       <p>Payment URL: {window.env.PAY_URL}</p>
           Learn React
         </a>
