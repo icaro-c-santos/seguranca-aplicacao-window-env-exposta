@@ -3,23 +3,11 @@ import './App.css';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div style={{ padding: 20 }}>
+      <h1>DevSecOps Demo</h1>
+      <p>API Key: {window.env.API_KEY}</p>
+      <p>Payment URL: {window.env.PAY_URL}</p>
     </div>
   );
 }
-
 export default App;
