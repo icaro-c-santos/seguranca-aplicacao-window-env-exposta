@@ -1,6 +1,6 @@
 import logo from './logo.svg';
 import './App.css';
-
+const AWS_SECRET_ACCESS_KEY = "ABCDEF1234567890"
 function App() {
   return (
     <div className="App">
@@ -9,8 +9,6 @@ function App() {
         <p>
           Edit <code>src/App.js</code> and save to reload.
         </p>
-        <p>API Key: {window.env.API_KEY}</p>
-      <p>Payment URL: {window.env.PAY_URL}</p>
           Learn React
         </a>
       </header>
