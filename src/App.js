@@ -9,12 +9,8 @@ function App() {
         <p>
           Edit <code>src/App.js</code> and save to reload.
         </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
+   <p>API Key: {window.env.API_KEY}</p>
+      <p>Payment URL: {window.env.PAY_URL}</p>
           Learn React
         </a>
       </header>
