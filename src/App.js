@@ -5,8 +5,7 @@ function App() {
   return (
     <div style={{ padding: 20 }}>
       <h1>DevSecOps Demo</h1>
-      <p>API Key: {window.env.API_KEY}</p>
-      <p>Payment URL: {window.env.PAY_URL}</p>
+
     </div>
   );
 }
